@@ -1,10 +1,42 @@
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
 li {
-  display: inline;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:yellow;
+}
+
+.home{
+  background-image: url('/images/pexels-photo-368893.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+
+}
+h1{
+  text-align: center;
+  size: 500px;
+  color: green;
+  font-weight: bold;
+  font-size: 150px;
+}
+h2{
+  text-align: center;
+  font-size: 100px;
 }
